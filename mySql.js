@@ -72,25 +72,25 @@ connection.connect(function(error){
 //   })
 
 
-//   let mostrar= "SELECT name,surname FROM Escuela.students";
-//   connection.query(mostrar,function(err,result){
-//     if(err)
-//     console.log(err);
-//     else{
-//       console.log("mostrar datos")
-//       console.log(result);
-//     }
-//   })
+  // let mostrar= "SELECT name,surname FROM Escuela.students";
+  // connection.query(mostrar,function(err,result){
+  //   if(err)
+  //   console.log(err);
+  //   else{
+  //     console.log("mostrar datos")
+  //     console.log(result);
+  //   }
+  // })
 
-//   let mostrarProfes= "SELECT id_teachers,name,surname FROM Escuela.teachers";
-//   connection.query(mostrarProfes,function(err,result){
-//     if(err)
-//     console.log(err);
-//     else{
-//       console.log("mostrar datos")
-//       console.log(result);
-//     }
-//   })
+  // let mostrarProfes= "SELECT id_teachers,name,surname FROM Escuela.teachers";
+  // connection.query(mostrarProfes,function(err,result){
+  //   if(err)
+  //   console.log(err);
+  //   else{
+  //     console.log("mostrar datos")
+  //     console.log(result);
+  //   }
+  // })
 
 // let eliminarNotas = "DELETE FROM Escuela.marks Where date < '2013-01-01'"
 // connection.query(eliminarNotas,function(err,result){
@@ -102,12 +102,12 @@ connection.connect(function(error){
 //   }
 // })
 
-let modificar = "UPDATE Escuela.marks SET mark = 5 WHERE mark < 5";
-connection.query(modificar,function(err,result){
-    if(err)
-    console.log(err);
-    else{
-      console.log("notas modificadas")
-      console.log(result);
-    }
-  })
+// let modificar = "UPDATE Escuela.marks SET mark = 5 WHERE mark < 5";
+// connection.query(modificar,function(err,result){
+//     if(err)
+//     console.log(err);
+//     else{
+//       console.log("notas modificadas")
+//       console.log(result);
+//     }
+//   })
