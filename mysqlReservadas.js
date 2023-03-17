@@ -112,3 +112,15 @@ const connection = mysql.createConnection(
           console.log(result);
         }
       })
+
+
+
+
+
+
+
+// SELECT e.situacion AS situacion, COUNT(*) AS total
+// FROM estados e
+// INNER JOIN piezas p ON p.id_estado = e.id_estado
+// GROUP BY e.situacion
+// ORDER BY total DESC;
