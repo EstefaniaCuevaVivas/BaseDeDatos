@@ -1,6 +1,5 @@
 const {Router} =  require ("express");
 const router = Router();
-
 const studentsCtrl = require("../controller/estudiantes.controller")
 
 router.get("/estudiantes",studentsCtrl.getAlumno);
