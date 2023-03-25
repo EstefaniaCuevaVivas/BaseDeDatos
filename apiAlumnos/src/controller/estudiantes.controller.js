@@ -33,7 +33,7 @@ function postAlumno(request, response) {
     if (err) console.log(err);
     else {
       console.log(result);
-      if (result) response.send(String(result));
+      if (result) response.send(result);
       else response.send(-1);
     }
   });
